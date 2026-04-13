@@ -1,3 +1,5 @@
+RUNNING LAI ON GI DATA 
+
 Data used to query:
 /gpfs/data/user/achint/gnomix_pipeline/gnomix/shared/test_training/GI_1kg_corrected/input/chr19_nokids_phased_renamed.vcf.gz
 Chr19, phased, 9524 samples
@@ -15,3 +17,23 @@ Percentage of model SNPs covered by query file: 89.25999999999999%
 List of samples with non zero SAS:
 apoe_india/nz_sas.txt
 (54 samples, 39 unique individuals, all CAO)
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+
+
+CHECKING LAI FOR APOE REGION
+
+Exracting APOE region for:
+awk '$1==19 && $2<=45000000 && $3>=44900000' query_results.msp > APOE_windows.msp
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+Extracting LA labels from .msp file:
+file_used: apoe_india/anc_inf.py
+(all SAS)
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+Checking APOE variants in GI data:
+file used: APOE_var.py
+'e3/e3': 6736
+'e3/e4': 1811
+'e2/e3': 702
+'e2/e4': 108
+'e4/e4': 143
+'e2/e2': 24
