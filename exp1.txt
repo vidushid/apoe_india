@@ -14,7 +14,7 @@ Number of SNPs from file: 1618945
 Number of intersecting SNPs: 203808
 Percentage of model SNPs covered by query file: 89.25999999999999%
 ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
-List of samples with non zero SAS:
+List of samples with non one SAS:
 apoe_india/nz_sas.txt
 (54 samples, 39 unique individuals, all CAO)
 ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
