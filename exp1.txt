@@ -1,1 +1,17 @@
-
+Data used to query:
+/gpfs/data/user/achint/gnomix_pipeline/gnomix/shared/test_training/GI_1kg_corrected/input/chr19_nokids_phased_renamed.vcf.gz
+Chr19, phased, 9524 samples
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+Model used to query: 
+Trained on 1kg and GA
+/gpfs/data/user/achint/gnomix_pipeline/gnomix/shared/test_training/GI_1kg_corrected/GAsP_1kg/output/model/models/model_chm_1
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+Inference details:
+Number of SNPs from model: 228338
+Number of SNPs from file: 1618945
+Number of intersecting SNPs: 203808
+Percentage of model SNPs covered by query file: 89.25999999999999%
+----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X ----------- X -----------
+List of samples with non zero SAS:
+apoe_india/nz_sas.txt
+(54 samples, 39 unique individuals, all CAO)
